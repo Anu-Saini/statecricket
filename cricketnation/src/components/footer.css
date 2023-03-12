@@ -1,0 +1,51 @@
+.myfooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   height: 50px;
+   background-color: #f0dec7;
+   margin: auto;
+   border-top: 1px solid black;
+  margin-top: 60vh;
+   
+  }
+  
+  .news{
+   margin-left: 50px;
+  }
+  .linear {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: center;
+ 
+  }
+
+  .flist {
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    display: block;
+    border-right: 2px solid black;
+    font-size: 18px;
+    
+  }
+
+  .footer-social {
+    display: flex;
+  }
+  .signature {
+    display: flex;
+  }
+  .footCol {
+    display: flex;
+  }
+  .title{
+    padding-left : 15px;
+    font-size: large;
+    font-weight: bold;
+  }
+  a.nav-link {
+    color: blue
+  }
