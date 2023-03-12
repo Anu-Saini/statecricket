@@ -1,0 +1,15 @@
+#jmb{
+  background-color: red;
+  color: yellow;
+}
+.tbar {
+  height: 800px;
+  background-position: bottom;
+  background-size: cover;
+  position: relative;
+  background-image:linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.500) )
+}
+
+.mains {
+  display: flex;
+}
