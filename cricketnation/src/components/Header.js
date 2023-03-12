@@ -6,7 +6,7 @@ import background from '../Assets/02junction3.jpg';
 import './header.css';
 import Navbar from './Navbar'
 import Mainsearchbar from "./searchbar.js"
-import LoginPage from "../pages/LoginPage";
+// import LoginPage from "../pages/LoginPage";
 
 const  Header = () => {
   return (
@@ -17,7 +17,7 @@ const  Header = () => {
 
      <Navbar />
      <routes>
-     <Route path="/Profile" element={<LoginPage></LoginPage>} /> 
+     {/* <Route path="/Profile" element={<LoginPage></LoginPage>} />  */}
      
      
 
