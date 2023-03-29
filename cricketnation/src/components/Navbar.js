@@ -1,6 +1,6 @@
 import React from 'react';
 //import { BrowserRouter as Router, Route, Link, } from 'react-router-dom';
-import "./navbar.css";
+import "../components/Styles/navbar.css";
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logoName from '../Assets/logo_criVic.jpg';

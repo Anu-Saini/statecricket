@@ -1,18 +1,17 @@
 import React from 'react';
 // import { useLocation, useNavigate } from 'react-router-dom';
 // import { Button } from 'antd';
-import "./footer.css";
-import {
-  faYoutube,
-  faFacebook,
-  faTwitter,
-  faInstagram
-} from "@fortawesome/free-brands-svg-icons";
+import "../components/Styles/footer.css";
+import Appcas from "./PCarousel";
 
 const Footer = () => {
   // const location = useLocation();
   // const navigate = useNavigate();
   return (
+    <>
+    <section>
+    <Appcas />
+    </section>
     <footer className="footer bg-info">
       <div className="container">
         <div className='row pt-5 pb-5'>
@@ -79,6 +78,7 @@ const Footer = () => {
 
            <div className='col-md-3'>
                         <span className='title'>CONTACT </span>
+                < div id='addr' >
                 <h6>Cricket Victoria</h6>
                 <p>CitiPower Centre - Junction Oval</p>
                 <p>Lakeside Drive</p>
@@ -86,48 +86,32 @@ const Footer = () => {
                  <br></br>
               <p> Ph: +61 3 9085 4000</p>
               <p> Fax: 03 9085 4001</p>
-                 <br></br>
-              <p> Email: vca@cricketvictoria.com.au</p>
+            <p> Email: vca@cricketvictoria.com.au</p>
 
+ </div>
+                  
            </div>
 <hr />
 <div className='footer-bottom'>
   <div className='container'>
     <div className='row'>
       <div className='col-xs-12'>
-        <div className='footer-social'>
-        <h6>checkout us on </h6> 
-          <ul className='linear'>
-        
-            <li className='flist' >
-              <a href="https://www.facebook.com/cricketvictoria" title="facebook" target="_blank" className='fa fa-facebook nav-link'>
-             facebook   </a>
-            </li>
-            <li className='flist'>
-              <a href="https://twitter.com/cricketvictoria" title="twitter" target="_blank" className='fa fa-twitter nav-link'>
-              twitter </a>
-            </li>
-            <li className='flist'>
-              <a href="https://www.instagram.com/cricketvictoria/" title="Instagram" target="_blank" className='fa fa-instagram nav-link'>
-              instagram</a>
-            </li>
-          </ul>
-        </div>
+     
         <div className='signature'>
           <h6>© Cricket Victoria 2023. All Rights Reserved</h6>
           <ul  className='linear'>
-            <li className='flist'>
+            <li className='footlist'>
               <a href="https://www.cricketvictoria.com.au/privacy-policy/" className="nav-link"> Privacy Policy</a>
             </li>
-            <li className='flist'>
+            <li className='footlist'>
               <a href="https://www.cricketvictoria.com.au/collection-statement/" className="nav-link"> Collection Statement</a>
             </li>
-            <li className='flist'>
+            <li className='footlist'>
               <a href="https://www.cricketvictoria.com.au/terms-and-conditions/" className="nav-link"> Terms and Conditions</a>
             </li>
           </ul>
           <span> 
-                        <a target="_blank" title="Website design" href="#" className="nav-link" > Website Design by </a>
+             <a target="_blank" title="Website design" href="https://www.google.com" className="nav-link" id="dev"> Website Design by </a>
               </span>
         </div>
       </div>
@@ -137,10 +121,9 @@ const Footer = () => {
 
       </div>
       </div>
-     
-      
-                  </footer>
-  );
+ </footer>
+        </>
+      );
 };
 
 export default Footer;

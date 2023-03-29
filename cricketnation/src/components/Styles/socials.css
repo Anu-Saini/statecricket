@@ -1,0 +1,37 @@
+.linear {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: center;
+ 
+  }
+
+  .flist {
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    display: block;
+    border-right: 2px solid black;
+    font-size: 18px; 
+    background-color: chartreuse;
+    font-size: 27px;
+    font-weight: bold;
+  }
+  h1-connect {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+  }
+
+  .footer-social{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: center;
+    
+  }

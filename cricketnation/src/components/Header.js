@@ -1,9 +1,9 @@
 import React from 'react';
-import  {  Routes, Route } from 'react-router-dom';
+//import  {  Routes, Route } from 'react-router-dom';
 import background from '../Assets/02junction3.jpg';
 //import pimg from '../Assets/360.jpg';
 //import {NavLink} from 'react-router-dom';
-import './header.css';
+import '../components/Styles/header.css';
 import Navbar from './Navbar'
 import Mainsearchbar from "./searchbar.js"
 // import LoginPage from "../pages/LoginPage";
